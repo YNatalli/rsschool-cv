@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Fredericka+the+Great&family=Licorice&family=Monoton&family=Sacramento&family=Shizuru&display=swap" rel="stylesheet">
   </head>
-
+  
   <body>
       <header class="header">
         <div class="container">
@@ -34,13 +37,13 @@
       <main class="main">
         <div class="container">
           <section class="avatar__name" id="profile">
-            <div class="header__photo">
+            <div class="main__photo">
               <img src="assets/img/Photo.jpg" alt="avatar">
             </div>
 
-            <div class="header__content">
-              <h1 class="header__title">Yahelskaya <span>Natallia</span></h1>
-              <h3 class="header__subtitle"><span>Front-end</span> developer (Beginner)</h3>
+            <div class="main__content">
+              <h1 class="main__title">Yahelskaya <span>Natallia</span></h1>
+              <h3 class="main__subtitle"><span>Front-end</span> developer (Beginner)</h3>
             </div>
           </section>
 
@@ -81,8 +84,8 @@ stop.</pre>
           <section class="skills" id="skills">
               <h2 class="skills__title"><b>Skills&nbsp;</b></h2>
               <ul class="skills__box">
-                <li class="skills__items">
-                  <h4>Git&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <li class="skills-items">
+                  <h3>Git&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                   <ul class="skills-list">
                     <li class="skills-list__item"></li>
                     <li class="skills-list__item"></li>
@@ -93,8 +96,8 @@ stop.</pre>
                   </ul>
                 </li>    
 
-                <li class="skills__items">
-                  <h4>HTML&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <li class="skills-items">
+                  <h3>HTML&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                   <ul class="skills-list">
                     <li class="skills-list__item"></li>
                     <li class="skills-list__item"></li>
@@ -105,8 +108,8 @@ stop.</pre>
                   </ul>
                 </li>     
 
-                <li class="skills__items">
-                  <h4>CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <li class="skills-items">
+                  <h3>CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
                   <ul class="skills-list">
                     <li class="skills-list__item"></li>
                     <li class="skills-list__item"></li>
@@ -117,8 +120,8 @@ stop.</pre>
                   </ul>
                 </li> 
     
-                <li class="skills__items">
-                  <h4>Python&nbsp;&nbsp;</h4>
+                <li class="skills-items">
+                  <h3>Python&nbsp;&nbsp;</h3>
                   <ul class="skills-list">
                     <li class="skills-list__item"></li>
                     <li class="skills-list__item"></li>
@@ -136,7 +139,7 @@ stop.</pre>
 
             <div class="about_english">
               <h2 class="english__title"><b>English</b></h2>
-              <h3 class="english__level"><b>A2+</b></h3>
+              <h3 class="english__level">Level: A2+</h3>
             </div>
 
             <div class="english__text">
@@ -156,20 +159,20 @@ studying it myself.</pre>
             <div class="elements__education" id="education">
               <ol class="list">
 
-                <li>
+                <li class="university">
                   <h4>University:</h4>
                   <p><a href="http://www.gsu.by/ru/taxonomy/term/54">Francisk Skorina Gomel State University.</a></p>
                 </li>
                         
                 <li id="courses">
                   <h4>Courses:</h4>
-                    <ul class="education__list">
-                      <li class="education__list__item"><p>Partner: PCAP - Programming Essentials in Python;</p></li>
-                      <li class="education__list__item"><p>Introduction to Cybersecurity;</p></li>
-                      <li class="education__list__item"><p>IT Essentials: PC Hardware and Software;</p></li>
-                      <li class="education__list__item"><p>CCNAv7: Introduction to Networks;</p></li>
-                      <li class="education__list__item"><p>CCNAv7: Switching, Routing, and Wireless Essentials;</p></li>
-                      <li class="education__list__item"><p>Cloud fundamentals in Microsoft Azure.</p></li>
+                    <ul class="course-list">
+                      <li class="course-list__item"><p>Partner: PCAP - Programming Essentials in Python;</p></li>
+                      <li class="course-list__item"><p>Introduction to Cybersecurity;</p></li>
+                      <li class="course-list__item"><p>IT Essentials: PC Hardware and Software;</p></li>
+                      <li class="course-list__item"><p>CCNAv7: Introduction to Networks;</p></li>
+                      <li class="course-list__item"><p>CCNAv7: Switching, Routing, and Wireless Essentials;</p></li>
+                      <li class="course-list__item"><p>Cloud fundamentals in Microsoft Azure.</p></li>
                     </ul>
                 </li>
 
@@ -180,7 +183,7 @@ studying it myself.</pre>
 
           <section class="code-examples" id="code">
 
-            <div class="education_examples">
+            <div class="code">
               <h2 class="code-examples__title"><b>Simple Python code examples</b></h2>
             </div>  
 
@@ -210,14 +213,12 @@ def count_digits(n):
         <div class="container">
 
           <ul class="footer__links">
-            <li class="footer__item"><a class="footer__link footer__link__vk" href="https://vk.com/ynatalli"></a></li>
-            <li class="footer__item"><a class="footer__link footer__link__rsschool" href="https://rs.school/js/"></a></li>
-            <li class="footer__item"><a class="footer__link__github" href="https://github.com/YNatalli"></a></li>
+            <li class="footer-item"><a class="footer-link__link__vk" href="https://vk.com/ynatalli"></a></li>
+            <li class="footer-item"><a class="footer-link__rsschool" href="https://rs.school/js/"></a></li>
+            <li class="footer-item"><a class="footer-link__github" href="https://github.com/YNatalli"></a></li>
           </ul>
-         
-          <div class="footer__inner--bottom">
-            <h6>Yahelskaya Natallia 2021</h6>
-          </div>
+  
+          <h6>Yahelskaya Natallia 2021</h6>
 
         </div> 
 
