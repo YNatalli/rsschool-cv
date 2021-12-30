@@ -24,17 +24,31 @@ p, a, pre, address {
 }
 
 b {
-  color: rgb(0, 195, 255);
+  color: rgb(67, 149, 255);
+}
+
+h1, h3, h5, h6 {
+  color: #a4a5a6;
+}
+
+h2 {
+  color: #a4a5a6;
+  line-height: 60px;
+}
+
+h4{
+  color:  #7a8eff;
+  line-height: 30px;
 }
 
 .nav-item a {
-  color: #5f99bb;
+  color: rgb(206, 198, 255);
   text-decoration: none;  
   transition: color 0.5s;
 }
 
 .nav-item a:hover {
-  color: #4fe7ba;
+  color: #ffffff;
 }
 
 .nav-list {
@@ -49,31 +63,18 @@ b {
   line-height: 50px;
   transition: .3s;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-h1, h3, h5, h6 {
-  color: #a4a5a6;
-}
-
-h4{
-  color: #a4a5a6;
-  line-height: 30px;
-}
-
-h2 {
-  color: #a4a5a6;
-  line-height: 60px;
-}
-
-.header__photo{
+.main__photo{
   width: 40%;
   padding: 0 50px 0 50px;
 }
 
-.header__photo img {
+.main__photo img {
   width: 250px;
   border-radius: 20%;
   }
@@ -82,18 +83,19 @@ h2 {
   padding: 0 50px 0 300px;
 }
 
-.header__title span{
-		color: rgb(0, 195, 255);
-		font-size: 40px;
+.main__title span{
+		color: rgb(67, 149, 255);
+		font-size: 30px;
 		line-height: 30px;
+    font-family: 'Cinzel Decorative', sans-serif;
   }
 
-.header__subtitle span{
-  color: rgb(0, 195, 255);
+.main__subtitle span{
+  color: rgb(67, 149, 255);
   line-height: 30px;
 }
 
-.header__content{
+.main__content{
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -113,6 +115,16 @@ h2 {
   list-style: none;
 }
 
+.main__contacts-item a {
+  color: rgb(206, 198, 255);
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.main__contacts-item a:hover {
+  color: #ffffff;
+}
+
 .about-me{
   padding: 0 50px 0 350px;
 }
@@ -121,7 +133,7 @@ h2 {
   padding: 0 50px 0 350px;
 }
 
-.skills__items{
+.skills-items{
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -132,17 +144,18 @@ h2 {
   align-items: center;
   list-style: none;
 }
+
 .skills-list__item{
   width: 10px;
   height: 10px;
-  background-color: rgb(115, 218, 204);
+  background-color: #7a8eff;
   margin-right: 5px;
 }
 
 .skills-list__item__light{
   width: 10px;
   height: 10px;
-  background-color: rgb(233, 233, 233);
+  background-color: rgba(233, 233, 233, 0.589);
   margin-right: 5px;
 }
 
@@ -152,12 +165,26 @@ h2 {
   top: 570px;
 }
 
+.english__level {
+  color: #7a8eff;
+}
+
 .education{
   padding: 0 50px 0 350px;
   list-style: none;
 }
 
-.education__list{
+.university a {
+  color: rgb(204, 199, 238);
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.university a:hover {
+  color: #ffffff;
+}
+
+.course-list{
   padding: 0 50px 0 15px;
 }
 
@@ -165,12 +192,20 @@ h2 {
   list-style: none;
 }
 
-.education__list__item{
-  color: rgb(115, 218, 204);
+.course-list__item{
+  color: #7a8eff;
 }
 
 .code-examples{
   padding: 0 50px 0 350px;
+}
+
+.code-examples_1{
+  color:  #7a8eff;
+}
+
+.code-examples_2{
+  color:  #7a8eff;
 }
 
 .footer {
@@ -200,13 +235,14 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.footer__item{
+
+.footer-item{
   height: 25px;
   cursor: pointer;
   list-style: none;
 }
 
-.footer__link__vk{
+.footer-link__vk{
   background: url('../assets/svg/icon_vk.svg') ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +251,7 @@ h2 {
   height: 25px;
 }
 
-.footer__link__rsschool{
+.footer-link__rsschool{
   background-image: url('../assets/svg/rs_school_js.svg') ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,7 +261,7 @@ h2 {
  
 }
 
-.footer__link__github{
+.footer-link__github{
   background: url('../assets/svg/githab.svg') ;
   background-repeat: no-repeat;
   background-size: cover;
