@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favnicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
 <body>
 
     <header class="container header-container">
+
         <div class="logo">
         </div>
 
@@ -105,7 +107,7 @@
                 <h2 class="section-title"><span>Video</span></h2>
 
                 <div class="video-player">
-                    <img src="./assets/img/video-player.jpg">
+                    <img src="./assets/img/video-player.jpg" alt="img_video">
                     <button class="btn_video"><img src="./assets/svg/Play_hover.svg" alt="btn_play"></button>
                 </div>
 
@@ -120,7 +122,7 @@
                     <div class="price-item">
                        <h3 class="price-title">Standart</h3>
 
-                       <p class="price">500 $</p>
+                       <p class="price">500 &#36;</p>
 
                        <p class="price-text">
                           <span>One location</span>
@@ -136,7 +138,7 @@
                     <div class="price-item">
                        <h3 class="price-title">Premium</h3>
 
-                       <p class="price">700 $</p>
+                       <p class="price">700 &#36;</p>
 
                        <p class="price-text">
                           <span>One or two locations</span>
@@ -152,7 +154,7 @@
                     <div class="price-item">
                        <h3 class="price-title">Gold</h3>
 
-                       <p class="price">1000 $</p>
+                       <p class="price">1000 &#36;</p>
 
                        <p class="price-text">
                           <span>Three locations or more</span>
@@ -169,17 +171,51 @@
 
             </section>
 
-            <section class="section">
-                <h2 class="section-title"></h2>
+            <section class="contacts-section" id="contacts">
+
+                <div class="contacts">
+                    <h2 class="contacts-title">Contact me</h2>
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="tel" name="tel" placeholder="Phone">
+                    <textarea name="Message" placeholder="Message"></textarea>
+                    <button class="btn_1">Send message</button>
+                </div>
 
             </section>
+
         </div>
+
     </main>
 
     <footer>
+
         <div class="container">
 
+            <div class="footer">
+
+                <div class="link-github">
+                   <span>©</span>
+                   <span>2022</span>
+                   <a class="nav-link" href="https://github.com/YNatalli">github</a>
+                </div>
+
+                <a class="nav-link" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+
+                <ul class="SM-list">
+                   <li><a href="https://rs.school/js-stage0/"><img src="./assets/svg/inst.svg" alt="inst"></a></li>
+                   <li><a href="https://rs.school/js-stage0/"><img src="./assets/svg/fb.svg" alt="fb"></a></li>
+                   <li><a href="https://rs.school/js-stage0/"><img src="./assets/svg/tw.svg" alt="tw"></a></li>
+                   <li><a href="https://rs.school/js-stage0/"><img src="./assets/svg/pint.svg" alt="pintrest"></a></li>
+                </ul>
+       
+            </div>
+
         </div>
+
     </footer>
+
+    <script src="index.js"></script>
+
 </body>
+
 </html>
