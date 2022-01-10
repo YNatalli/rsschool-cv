@@ -309,3 +309,77 @@ body {
   background-color: #bdae82;
   color: black;
 }
+
+.video-player {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_video{
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn_video:hover{
+filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);}
+
+.price-items {
+  margin-top: 60px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.price-item {
+  min-width: 450px;
+  min-height: 505px;
+  border: 2px solid #bdae82;
+}
+
+.price-title {
+  margin-top: 43px;
+  margin-bottom: 0;
+  font-family: 'Merriweather',serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  color: #bdae82;
+}
+
+.price-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price-text span {
+  display: block;
+}
+
+.price-text + button {
+  margin-left: 115px;
+}
