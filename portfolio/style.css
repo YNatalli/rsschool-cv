@@ -55,13 +55,21 @@ body {
 }
 
 .nav-link {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
   transition: .3s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  font-style:italic;
+  color: #BDAE82;
+  transition: color 0.5s;
 }
 
 .nav-item a {
@@ -73,7 +81,7 @@ body {
 }
 
 .nav-item a:hover {
-  text-decoration: underline;
+  font-style:italic;
   color: #BDAE82;
   transition: color 0.5s;
 }
@@ -357,7 +365,7 @@ filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) c
 .price {
   margin-top: 15px;
   margin-bottom: 0;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -367,7 +375,7 @@ filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) c
 }
 
 .price-text {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -382,4 +390,77 @@ filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) c
 
 .price-text + button {
   margin-left: 115px;
+}
+
+.contacts-section {
+  background-image: url("./assets/img/contacts.jpg");
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  padding: 60px 20px 170px 970px;
+}
+
+.contacts-title {
+  margin-top: 0;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+
+input,
+textarea {
+  width: 90%;
+  min-height: 38px;
+  padding: 5px 20px;
+  border: 2px solid #bdae82;
+  color: #bdae82;
+  font-size: 20px;
+  font-family: inherit;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+}
+
+.footer {
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.link-github {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.SM-list {
+  list-style: none;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
