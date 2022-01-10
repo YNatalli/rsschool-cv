@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Inconsolata', monospace;
+  background-color: rgba(1, 2, 3, 0.932) ;
+}
+
+p, a, pre, address {
+  color: #979899;
+  font-size: 1rem;
+}
+
+b {
+  color: rgb(67, 149, 255);
+}
+
+h1, h3, h5, h6 {
+  color: #a4a5a6;
+}
+
+h2 {
+  color: #a4a5a6;
+  line-height: 60px;
+}
+
+h4{
+  color:  #7a8eff;
+  line-height: 30px;
+}
+
+.nav-item a {
+  color: rgb(206, 198, 255);
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.nav-item a:hover {
+  color: #ffffff;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 50px 0 330px;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main__photo{
+  width: 40%;
+  padding: 0 50px 0 50px;
+}
+
+.main__photo img {
+  width: 250px;
+  border-radius: 20%;
+  }
+
+.avatar__name{
+  padding: 0 50px 0 300px;
+}
+
+.main__title span{
+		color: rgb(67, 149, 255);
+		font-size: 30px;
+		line-height: 30px;
+    font-family: 'Cinzel Decorative', sans-serif;
+  }
+
+.main__subtitle span{
+  color: rgb(67, 149, 255);
+  line-height: 30px;
+}
+
+.main__content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.contacts{
+  padding: 0px 650px;
+  width: calc(100% - 3.5rem);
+  height: 0px;
+  position: absolute;
+  top: 40px;
+}
+
+.main__contacts-item{
+  list-style: none;
+}
+
+.main__contacts-item a {
+  color: rgb(206, 198, 255);
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.main__contacts-item a:hover {
+  color: #ffffff;
+}
+
+.about-me{
+  padding: 0 50px 0 350px;
+}
+
+.skills{
+  padding: 0 50px 0 350px;
+}
+
+.skills-items{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.skills-list__item{
+  width: 10px;
+  height: 10px;
+  background-color: #7a8eff;
+  margin-right: 5px;
+}
+
+.skills-list__item__light{
+  width: 10px;
+  height: 10px;
+  background-color: rgba(233, 233, 233, 0.589);
+  margin-right: 5px;
+}
+
+.english{
+  padding: 0 50px 0 600px;
+  position: absolute;
+  top: 570px;
+}
+
+.english__level {
+  color: #7a8eff;
+}
+
+.education{
+  padding: 0 50px 0 350px;
+  list-style: none;
+}
+
+.university a {
+  color: rgb(204, 199, 238);
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.university a:hover {
+  color: #ffffff;
+}
+
+.course-list{
+  padding: 0 50px 0 15px;
+}
+
+.list{
+  list-style: none;
+}
+
+.course-list__item{
+  color: #7a8eff;
+}
+
+.code-examples{
+  padding: 0 50px 0 350px;
+}
+
+.code-examples_1{
+  color:  #7a8eff;
+}
+
+.code-examples_2{
+  color:  #7a8eff;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__links {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #979899;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-item{
+  height: 25px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.footer-link__vk{
+  background: url('../assets/svg/icon_vk.svg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-link__rsschool{
+  background-image: url('../assets/svg/rs_school_js.svg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+ 
+}
+
+.footer-link__github{
+  background: url('../assets/svg/githab.svg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
